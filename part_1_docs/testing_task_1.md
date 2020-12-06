@@ -18,10 +18,10 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-  # should be card.value == 1
+  # Should be card.value == 1
     if card.value = 1:
       return True
-  # missing colon at the end of else
+  # Missing colon at the end of else
     else
       return False
   
@@ -35,12 +35,13 @@ class CardGame:
     return card2
   
 
-
+# Indentation error
 def cards_total(self, cards):
   total
-  # total needs to be set to 0 to start with, or its value will not increment as we iterate over the list
+# Total needs to be set to 0 to start with, or its value will not increment as we iterate over the list
   for card in cards:
     total += card.value
+# Need to convert total to string and add in a space after the f in of. Indentation error for return."
     return "You have a total of" + total
   
 ```

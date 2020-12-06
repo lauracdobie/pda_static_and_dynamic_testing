@@ -21,4 +21,7 @@ class TestCardGame(unittest.TestCase):
 
     def test_highest_card(self):
         self.assertEqual(self.card3, self.game.highest_card(self.card3, self.card4))
+
+    def test_cards_total(self):
+        self.assertEqual("You have a total of 21", self.game.cards_total(self.hand))
         

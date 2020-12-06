@@ -23,10 +23,8 @@ class CardGame:
     else:
       return card2
   
-
-
-# def cards_total(self, cards):
-#   total
-#   for card in cards:
-#     total += card.value
-#     return "You have a total of" + total
+  def cards_total(self, cards):
+    total = 0
+    for card in cards:
+      total += card.value
+    return "You have a total of " + str(total)
