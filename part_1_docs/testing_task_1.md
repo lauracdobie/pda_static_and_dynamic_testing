@@ -41,7 +41,7 @@ def cards_total(self, cards):
 # Total needs to be set to 0 to start with, or its value will not increment as we iterate over the list
   for card in cards:
     total += card.value
-# Need to convert total to string and add in a space after the f in of. Indentation error for return."
+# Need to convert total to string and add in a space after the f in of. Indentation error for return
     return "You have a total of" + total
   
 ```
