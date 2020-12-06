@@ -18,11 +18,14 @@ class CardGame:
 
 
   def check_for_ace(self, card):
+  # should be card.value == 1
     if card.value = 1:
       return True
+  # missing colon at the end of else
     else
       return False
-   
+  
+  # Should be def, not dif
   dif highest_card(self, card1 card2):
   # There needs to be a comma between card1 and card2
   if card1.value > card2.value:
