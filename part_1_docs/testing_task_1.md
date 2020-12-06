@@ -27,7 +27,7 @@ class CardGame:
   
   # Should be def, not dif
   dif highest_card(self, card1 card2):
-  # There needs to be a comma between card1 and card2
+  # There needs to be a comma between card1 and card2. Indentiation error.
   if card1.value > card2.value:
     return card
   # This should be card1
